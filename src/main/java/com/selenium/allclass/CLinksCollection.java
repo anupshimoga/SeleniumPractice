@@ -21,8 +21,9 @@ public class CLinksCollection {
 		
 		for(int i =0; i<linksAmazon.size(); i++) {
 			String links = linksAmazon.get(i).getAttribute("href");	
-				System.out.println(links);
-			}
+			System.out.println(links);
+			System.out.println("Testing....");
+		}
 	driver.quit();
 	}
 }
